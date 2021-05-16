@@ -683,8 +683,15 @@
     }
     </style>
     
+    <div id="filter-type">
+	    <select name="type" id="filter-type-options" multiple>
+		    <option value="mulitple-choice">Multiple Choice</option>
+		    <option value="practical">Practical</option>
+		    <option value="mix">Multiple Choice and Practical</option>
+	    </select>
+    </div>
     <div id="filter-vendor">
-            <select name="vendor" id="vendor" multiple>
+            <select name="vendor" id="filter-vendor-options" multiple>
 		    <option value="Accessdata">AccessData</option>
 		    <option value="Amazon">Amazon</option>
 		    <option value="APMG">APMG</option>
@@ -727,6 +734,7 @@
 		    <option value="Offensive-Security">Offensive Security</option>
 		    <option value="OpenText">OpenText</option>
 		    <option value="Palo-Alto">Palo Alto</option>
+		    <option value="Pentester-Academy">Pentester Academy</option>
 		    <option value="PMI">PMI</option>
 		    <option value="QIA">QIA</option>
 		    <option value="Red-Hat">Red Hat</option>
@@ -735,14 +743,13 @@
 		    <option value="Salesforce">Salesforce</option>
 		    <option value="Scrum">Scrum</option>
 		    <option value="SECO">SECO</option>
-		    <option value="Security Blue Team">Security Blue Team</option>
+		    <option value="Security-Blue-Team">Security Blue Team</option>
 		    <option value="SUSE">SUSE</option>
 		    <option value="TUV">TUV</option>
 		    <option value="VMware">VMware</option>
 		    <option value="Zachman-Enterprise">Zachman Enterprise</option>
 	    </select>
     </div>
-
 
     <div id="static">
             <img src="https://pauljerimy.com/wp-content/uploads/2020/10/Security-Certification-Progression-Chart-v7.0.png" alt="Static Security Certification Chart (October 2020)" class="wp-image-309">
